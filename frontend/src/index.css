@@ -1,5 +1,6 @@
 /* src/index.css */
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css?family=Outfit:wght@100..900&display=swap'); 
 
 @layer components {
   .active hr {
@@ -11,3 +12,6 @@
   display: none; 
 }
 
+* {
+  font-family: 'Outfit', sans-serif; 
+}
